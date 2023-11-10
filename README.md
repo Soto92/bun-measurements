@@ -20,26 +20,17 @@ I implemented some math operations in C, Rust and Typescript and then I'm testin
 
 ## Some results
 
-```
-Call to add in TS took 25373 nanoseconds.
-Result: 5000000
-Call to add in Rust took 72935 nanoseconds.
-Result: 5000000
-Call to add in C took 17666 nanoseconds.
-Result: 5000000
-Call to division in TS took 16530 nanoseconds.
-Result: 49494949
-Call to division in Rust took 31479 nanoseconds.
-Result: 49494949
-Call to division in C took 19739 nanoseconds.
-Result: 49494949
-Call to Fibonacci in TS took 188075 nanoseconds.
-Result: 987
-Call to Fibonacci in Rust took 58600 nanoseconds.
-Result: 987
-Call to Fibonacci in C took 23134 nanoseconds.
-Result: 987
-```
+| Operation | Language | Time in Nanoseconds |
+| --------- | -------- | ------------------- |
+| Sum       | TS       | 37.267              |
+| Sum       | Rust     | 78.491              |
+| Sum       | C        | 35.988              |
+| Division  | TS       | 26.862              |
+| Division  | Rust     | 42.995              |
+| Division  | C        | 3.1037              |
+| Fibonacci | TS       | 305.418             |
+| Fibonacci | Rust     | 87.000              |
+| Fibonacci | C        | 36.513              |
 
 ## Todo
 
